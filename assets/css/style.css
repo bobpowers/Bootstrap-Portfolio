@@ -1,8 +1,8 @@
+body {
+	color: #777777;
+}
 
-
-.resizePic {
-	width: 150px;
-	height: 150px;
+.aboutPic {
 	margin-bottom: 18px
 }
 
@@ -22,10 +22,125 @@
 	margin-bottom: 20px;
 }
 
-.footerPosition {
+/*.footerPosition {
 	padding-top: 15px;
+}*/
+
+.rightContent {
+	margin-bottom: 80px;
 }
 
+.leftContent {
+	border-style: solid;
+	border-color: #dddddd;
+	border-width: 2px;
+	background-color: #ffffff;
+	margin-bottom: 80px;
+}
+
+.containerEdits{
+	margin-left: 28px;
+	margin-right: 28px;
+}
+
+#bodyContent {
+	background: url(../image/concrete-texture.png) #f3f2f4;
+}
+
+#contactMe {
+	padding: 30px;
+}
+
+.submitButton {
+	background-color: #4aaaa5;
+	color: #ffffff;
+
+}
+
+#headerStyle {
+	background-color: #ffffff;
+}
+
+.rightLinks a {
+	min-height: 70px;
+}
+
+
+
+#headerName {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	height: 100%;
+}
+
+
+
+.connectHeader {
+	background-color: #ffffff;
+}
+
+/*.img-responsive {
+	max-width: 90%
+	max-height: auto;
+}*/
+
+/*.linkContent {
+	position: relative;
+}*/
+
+.listedWork {
+	width: 100%;
+	margin-bottom: 54px;
+	position: relative;
+	/*margin-left: 38px;*/
+}
+
+.listedWork p {
+	width: 100%;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 20px;
+	color: #ffffff;
+	background-color: #4aaaa5;
+	position: absolute;
+	bottom: 10%;
+	padding: 12px 0px;
+	/*text-align: center;
+	padding: 17px 0px;*/
+}
+
+.footerStyle {
+	border-top-style: solid;
+	border-top-color: #4aaaa5;
+	border-top-width: 5px;
+	background-color: #666666;
+	color: #cccccc;
+	padding-top: 28px;
+	min-height: 80px;
+	margin-top: 30px;
+}
+
+/*deleted these from the html*/
+
+/*.projectPic {
+	position: relative;
+	margin-bottom: 40px;
+}
+*/
+/*
+.myProjects {
+	position: absolute;
+	bottom: 25%;
+	height: 50px;
+	width: 253px;
+	background-color: #4aaaa5;
+	color: #ffffff;
+}
+
+.myProjects p {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 20px;
+	padding-top: 10px;
+}*/
 
 
 

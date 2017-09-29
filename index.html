@@ -2,39 +2,38 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>Robert Powers - About Me</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 </head>
-<body>
+<body id="bodyContent">
 	<!-- Nav Bar -->
-	<nav class="navbar navbar-default navStyle">
+	<nav class="navbar navbar-default navStyle" id="headerStyle">
   		<div class="container-fluid">
     		<div class="navbar-header myName">
-      			<a class="navbar-brand" href="index.html">Robert Powers</a>
+      			<a class="navbar-brand" href="index.html"> <p class="headerName">Robert Powers</p></a>
     		</div>
 		    <ul class="nav navbar-nav navbar-right rightLinks">
-		      <li class="active"><a href="index.html">Home</a></li>
-		      <li><a href="index.html">About</a></li>
+		      <li  class="active"><a href="index.html">About</a></li>
 		      <li><a href="portfolio.html">Portfolio</a></li>
 		      <li><a href="contact.html">Contact</a></li>
 		    </ul>
 		</div>
 	</nav>
 	<!-- Container for all the Content -->
-	<div class="container">
+	<div class="container-fluid containerEdits">
 		<div class="row">
 			<!-- Main Content- left side of page -->
-			<div class="col-lg-8">
+			<div class="col-xs-12 col-md-12 col-md-7 col-lg-8 leftContent container-fluid">
 				<h1>About Me</h1>
 				<br>
 				<div class="row">
-					<div class="col-md-3">
-						<img src="assets/image/RobertPowers.png" alt="" class="resizePic">
+					<div class="col-sm-6 col-md-12 col-lg-3">
+						<img src="assets/image/RobertPowers.png" alt="" class="aboutPic img-responsive center-block">
 					</div>
-					<div class="col-md-9 description">
+					<div class="col-sm-6 col-md-12 col-lg-9 description">
 						<p>Aenean pharetra metus nec massa aliquet, et tempus eros dignissim. Aenean sed pulvinar lacus, in laoreet risus. Sed ullamcorper gravida lectus ac cursus. Praesent eget feugiat mauris. Donec facilisis purus ac elementum porta. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque et odio in erat bibendum maximus sed luctus neque. Integer diam dui, semper vitae bibendum quis, accumsan ut tortor. Nam fermentum lorem scelerisque enim suscipit elementum. Morbi sit amet pretium risus, in gravida eros.	
 						</p>
 					</div>
@@ -42,10 +41,10 @@
 			</div>
 
 			<!-- Side Bar/Links - right side of page  -->
-			<!-- <div class="col-sm-1"></div> -->
-			<div class="col-lg-3">
+			
+			<div class="col-xs-12 col-sm-12 col-md-5 col-lg-4 rightContent">
 				<div class="panel panel-default">
-			  		<div class="panel-heading">Connect With Me</div>
+			  		<div class="panel-body text-center">Connect With Me</div>
 			  			<div class="panel-body text-center">
 			  				
 			  				<a href="https://github.com/bobpowers" target="_blank"><img src="assets/image/gitHubSquare.png" alt="github" class=""></a>
@@ -59,7 +58,7 @@
 			</div>
 		</div> <!-- Row for all content closed -->
 
-		<div class="navbar navbar-default navbar-fixed-bottom footerPosition">
+		<div class="navbar navbar-default navbar-fixed-bottom footerPosition footerStyle">
 			<div class="container">
 				<p class="text-center">© Copyright Robert Powers 2017</p>
 			</div>
